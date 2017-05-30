@@ -1,0 +1,35 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "___build": "webpack -d --watch",
+    "build": "webpack",
+    "build:prod": "webpack -p"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmacciocca/typescript-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmacciocca/typescript-react/issues"
+  },
+  "homepage": "https://github.com/gmacciocca/typescript-react#readme",
+  "devDependencies": {
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "lite-server": "^2.3.0",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
